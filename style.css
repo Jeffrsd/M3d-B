@@ -1,0 +1,57 @@
+/* Importação da fonte no head do HTML */
+/* <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #dfe9a8;
+}
+
+.section-home-m3d {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  padding-top: 48px;
+  margin: auto;
+  max-width: 960px;
+  padding: 0 24px;
+}
+
+.div-home-m3d-texto {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.section-imagem-m3d-10 {
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media queries para ajustar estilos em dispositivos móveis */
+
+@media (max-width: 768px) {
+  .section-home-m3d {
+    gap: 24px;
+  }
+  
+  .div-home-m3d-texto {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .div-home-m3d-texto {
+    font-size: 14px;
+  }
+}
